@@ -12,7 +12,7 @@ provider "aws" {
   region = var.aws_region
   default_tags {
     tags = {
-      "Source" = "minecraft-ondemand-terraform"
+      "Source"    = "minecraft-ondemand-terraform"
       "MineCraft" = format("minecraft.%s", var.domain_name)
     }
   }
@@ -24,7 +24,7 @@ provider "aws" {
   region = "us-east-1"
   default_tags {
     tags = {
-      "Source" = "minecraft-ondemand-terraform"
+      "Source"    = "minecraft-ondemand-terraform"
       "MineCraft" = format("minecraft.%s", var.domain_name)
     }
   }
